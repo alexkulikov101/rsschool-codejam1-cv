@@ -689,3 +689,16 @@ a {
 .education__link:hover {
   opacity: 0.7;
 }
+.my-english {
+  width: 100%;
+  padding: 30px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border: 1px solid #aaa;
+  background: url("../../img/texture.png");
+}
+.my-english__title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+}
