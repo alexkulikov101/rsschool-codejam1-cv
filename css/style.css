@@ -470,6 +470,11 @@ h6 {
 a {
   text-decoration: none;
 }
+@media (max-width: 1023px) {
+  .container {
+    width: auto;
+  }
+}
 .page-header {
   position: relative;
   height: 400px;
@@ -526,6 +531,12 @@ a {
   font-size: 18px;
   color: #fff;
 }
+@media (max-width: 1023px) {
+  .page-header__user {
+    width: auto;
+    text-align: center;
+  }
+}
 .about-me {
   width: 360px;
   min-height: 610px;
@@ -557,6 +568,11 @@ a {
 .about-me__nationality {
   margin-bottom: 40px;
   font-size: 18px;
+}
+@media (max-width: 1023px) {
+  .about-me {
+    margin: 70px auto;
+  }
 }
 .contact {
   width: auto;
@@ -644,6 +660,14 @@ a {
 }
 .skills__item {
   margin-bottom: 15px;
+}
+@media (max-width: 1023px) {
+  .skills__list--left {
+    width: auto;
+  }
+  .skills__list--right {
+    width: auto;
+  }
 }
 .work-experience {
   width: 100%;
