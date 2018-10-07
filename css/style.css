@@ -667,3 +667,25 @@ a {
 .work-experience__link:hover {
   opacity: 0.7;
 }
+.education {
+  width: 100%;
+  padding: 30px;
+  margin-top: 70px;
+  border: 1px solid #aaa;
+}
+.education__title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+}
+.education__item {
+  margin-bottom: 40px;
+}
+.education__link {
+  display: block;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+.education__link:hover {
+  opacity: 0.7;
+}
