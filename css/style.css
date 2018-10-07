@@ -645,3 +645,25 @@ a {
 .skills__item {
   margin-bottom: 15px;
 }
+.work-experience {
+  width: 100%;
+  padding: 30px;
+  margin-top: 70px;
+  border: 1px solid #aaa;
+  text-align: center;
+  background: url("../../img/texture.png");
+}
+.work-experience__title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+}
+.work-experience__link-gh {
+  margin-bottom: 50px;
+}
+.work-experience__link {
+  text-decoration: underline;
+}
+.work-experience__link:hover {
+  opacity: 0.7;
+}
