@@ -626,11 +626,6 @@ a {
   margin-top: 70px;
   border: 1px solid #aaa;
 }
-.summary__title {
-  margin-top: 60px;
-  margin-bottom: 40px;
-  font-family: 'Lato', sans-serif;
-}
 .summary__text2 {
   margin-top: 40px;
 }
@@ -640,38 +635,44 @@ a {
   }
 }
 .skills {
-  min-height: 400px;
+  width: 100%;
   padding: 30px;
   margin-top: 70px;
   border: 1px solid #aaa;
 }
-.skills__title {
-  margin-top: 30px;
-  margin-bottom: 40px;
-  font-family: 'Lato', sans-serif;
+.skills__heading {
+  margin-left: 30px;
+  text-align: center;
 }
 .skills__list {
-  width: 460px;
-  margin: 0;
-  padding: 0;
-  padding-left: 50px;
-}
-.skills__list-wrapper {
+  width: 922px;
+  height: 445px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
 }
 .skills__item {
   margin-bottom: 15px;
 }
-@media (max-width: 700px) {
+@media (max-width: 1023px) {
   .skills__list {
     width: auto;
+    height: auto;
+    padding-left: 150px;
+  }
+}
+@media (max-width: 670px) {
+  .skills__list {
+    padding-left: 50px;
   }
 }
 .work-experience {
@@ -682,11 +683,6 @@ a {
   text-align: center;
   background: url("../img/texture.png");
 }
-.work-experience__title {
-  margin-top: 60px;
-  margin-bottom: 40px;
-  font-family: 'Lato', sans-serif;
-}
 .work-experience__link-gh {
   margin-bottom: 50px;
 }
@@ -696,16 +692,19 @@ a {
 .work-experience__link:hover {
   opacity: 0.7;
 }
+@media (max-width: 350px) {
+  .work-experience__link {
+    font-size: 13px;
+  }
+}
 .education {
   width: 100%;
   padding: 30px;
   margin-top: 70px;
   border: 1px solid #aaa;
 }
-.education__title {
-  margin-top: 60px;
-  margin-bottom: 40px;
-  font-family: 'Lato', sans-serif;
+.education__heading {
+  margin-left: 30px;
 }
 .education__item {
   margin-bottom: 40px;
@@ -718,7 +717,7 @@ a {
 .education__link:hover {
   opacity: 0.7;
 }
-.my-english {
+.level-english {
   width: 100%;
   padding: 30px;
   margin-top: 70px;
@@ -726,8 +725,7 @@ a {
   border: 1px solid #aaa;
   background: url("../img/texture.png");
 }
-.my-english__title {
-  margin-top: 60px;
-  margin-bottom: 40px;
+.heading__title {
+  margin: 30px 0;
   font-family: 'Lato', sans-serif;
 }
