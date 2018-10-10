@@ -479,10 +479,10 @@ a {
 .page-header {
   position: relative;
   height: 400px;
+  background: #ccc url("../img/jesus-kiteque-224069-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-position: 100% 94%;
-  background-image: url("../img/jesus-kiteque-224069-unsplash.jpg");
 }
 .page-header:before {
   position: absolute;
@@ -555,6 +555,8 @@ a {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: 50% 22%;
+     object-position: 50% 22%;
 }
 .about-me__name {
   margin-bottom: 20px;
